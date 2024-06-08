@@ -1,0 +1,35 @@
+/* styles.css */
+
+/*adds shadow to bottom of navbar*/
+#navbar{
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+/*basic navbar button*/
+#navbarButtonA{
+    background-color: white; 
+    border-color: white;
+    margin-right: 1em;
+}
+
+/*navbar button for appointment*/
+#navbarButtonB {
+    background-color: #727B90; 
+    color: white; 
+    border-radius: 10px;
+}
+
+/*title*/
+#title {
+    font-family: 'Quattrocento';
+    font-size: 65;
+}
+
+.section-title-hr {
+    width: 50em;
+    height: 1px;
+    border: 1px solid black;
+    background-color: black;
+    display: block;
+    opacity: .60;
+  }
