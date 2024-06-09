@@ -89,3 +89,27 @@
     display: flex;
     justify-content: space-between;
 }
+
+/*Body text*/
+.body {
+    font-family: 'Inter';
+    font-size: larger;
+}
+.body2 {
+    font-family: 'Inter';
+    font-size: large;
+}
+
+/*About Us Image*/
+.about_us_image {
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid #192E41;
+}
+
+/*to center image in column*/
+#alignImage {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
