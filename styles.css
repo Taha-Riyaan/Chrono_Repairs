@@ -12,11 +12,23 @@
     margin-right: 1em;
 }
 
+#navbarButtonA:hover {
+    background-color: white; 
+    border-color: #727B90;
+    margin-right: 1em;
+}
+
 /*navbar button for appointment*/
 #navbarButtonB {
     background-color: #727B90; 
     color: white; 
     border-radius: 10px;
+}
+
+#navbarButtonC {
+    background-color: white; 
+    border-color: #727B90;
+    margin-right: 1em;
 }
 
 /*title*/
@@ -160,4 +172,48 @@
 /*carousel title*/
 .carousel_title {
     font-family: 'Quattrocento';
+}
+
+/*Field title*/
+.field_title {
+    font-family: 'Inter'; 
+    margin-bottom: 0;
+}
+
+/*expert button*/
+.expert_button {
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    color: black;
+    border: 2px solid black;
+}
+.expert_button:hover {
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.expert_button:focus,
+.expert_button.focus {
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.active {
+    background-color: black;
+    color: #F6F6F6;
+}
+
+/*expert button*/
+.submit {
+    border-radius: 20px;
+    background-color: black;
+    color: #F6F6F6;
+    border: 2px solid black;
+    width: 25em;
+    
+}
+.submit:hover {
+    background-color: #F6F6F6;
+    color: black;
+    width: 25em;
 }

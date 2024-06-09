@@ -29,4 +29,3 @@ Waterproofing: checking and reparing water seals and lubrication
 
 Polishing: Polishing Glass & ensuring waterproofing
 200
-
