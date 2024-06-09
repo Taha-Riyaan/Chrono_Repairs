@@ -113,3 +113,51 @@
     align-items: center;
     justify-content: center
 }
+
+/*card colour & border*/
+#card_style {
+    background-color: #192E41;
+    border: 2px solid black;
+}
+
+/*text colour and size for expert card*/
+#expert_card_1 {
+    font-family: 'Quattrocento';
+    color: white;
+}
+#expert_card_2 {
+    font-family: 'Inter';
+    color: white;
+    font-size: 1.05em;
+}
+
+/*horizontal bar in expert cards*/
+.section-title-hr_2 {
+    width: 17em;
+    height: 1px;
+    border: 1px solid white;
+    background-color: white;
+    display: block;
+    opacity: .60;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+.round_image_corner {
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 50em;
+}
+
+/*carousel colour & border*/
+#carousel_style {
+    background-color: #192E41;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+/*carousel title*/
+.carousel_title {
+    font-family: 'Quattrocento';
+}

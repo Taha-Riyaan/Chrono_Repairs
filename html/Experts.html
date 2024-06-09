@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ContactUs</title>
+    <title>AboutUs</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="..\styles.css" rel="stylesheet">
@@ -46,70 +46,89 @@
         </div>
     </nav>
 
-    <!--container to keep divs side by side-->
+    <!--Title container-->
     <div class="container">
-        <!--contact us container-->
-        <div class="row">
-            <div class="col-md-6">
-                <!--title-->
-                <h1 id="title">Contact Us</h1>
-                <p class="body fw-bold">
-                    <i class="fas fa-home me-3"></i>Address
-                </p>
-                <p class="body2">
-                    <i class="fas fa-home me-4"></i>1900 Ginger St E, Hamilton, Ontario
-                </p>
+        <!--title-->
+        <div class="d-flex justify-content-center">
+            <h1 id="title" class="mb-4">Our Certified Experts</h1>
+        </div>
+    </div>
 
-                <p class="body fw-bold">
-                    <i class="fas fa-home me-3"></i>Phone Number
-                </p>
-                <p class="body2">
-                    <i class="fas fa-home me-4"></i>(905) 545-5922
-                </p>
-
-                <p class="body fw-bold">
-                    <i class="fas fa-home me-3"></i>Fax
-                </p>
-                <p class="body2">
-                    <i class="fas fa-home me-4"></i> 1 905 123 4567
-                </p>
-
-                <p class="body fw-bold">
-                    <i class="fas fa-home me-3"></i>Email
-                </p>
-                <p class="body2">
-                    <i class="fas fa-home me-4"></i>chrono.repairs@gmail.com
-                </p>
+    <!--cards container, keeps in center of page-->
+    <div class="container jaustify-content-center ">
+        <!--actual card container-->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+            <div class="card h-100" id="card_style">
+                <img src="..\Images\tomato.png" class="card-img-top" alt="Tomato Temaro">
+                <div class="card-body">
+                    <!--card title-->
+                    <h3 class="card-title text-center" id="expert_card_1">Tomato Temaro</h3>
+                    <!--horizontal bar-->
+                    <div class="d-flex justify-content-center">
+                        <hr class="section-title-hr_2">
+                    </div>
+                    <!--card body-->
+                    <div class="container">
+                        <ul>
+                            <li class="card-text fw-light" id="expert_card_2">Internal Repair</li>
+                            <li class="card-text fw-light" id="expert_card_2">Battery Replacement</li>
+                            <li class="card-text fw-light" id="expert_card_2">Glass Repair / Replacement</li>
+                        </ul>
+                    </div>
+                    
+                </div>
             </div>
-    
-            <!--store hours container-->
-            <div class="col-md-5">
-                <h1 id="title">Store Hours</h1>
-                <p class="body fw-bold">
-                    <i class="fas fa-home me-3"></i>Monday to Thursday
-                </p>
-                <p class="body2">
-                    <i class="fas fa-home me-4"></i>9 AM - 5PM
-                </p>
-
-                <p class="body fw-bold">
-                    <i class="fas fa-home me-3"></i>Friday
-                </p>
-                <p class="body2">
-                    <i class="fas fa-home me-4"></i>Closed
-                </p>
-
-                <p class="body fw-bold">
-                    <i class="fas fa-home me-3"></i>Saturday & Sunday
-                </p>
-                <p class="body2">
-                    <i class="fas fa-home me-4"></i>10 AM - 2 PM
-                </p>
-                
+            </div>
+            <div class="col">
+            <div class="card h-100" id="card_style">
+                <img src="..\Images\tomato.png" class="card-img-top" alt="Tominin Tomato">
+                <div class="card-body">
+                    <!--card title-->
+                    <h3 class="card-title text-center" id="expert_card_1">Tominin Tomato</h3>
+                     <!--horizontal bar-->
+                    <div class="d-flex justify-content-center">
+                        <hr class="section-title-hr_2">
+                    </div>
+                    <!--card body-->
+                    <div class="container">
+                        <ul>
+                            <li class="card-text fw-light" id="expert_card_2">Internal Repair</li>
+                            <li class="card-text fw-light" id="expert_card_2">Strap Replacement</li>
+                            <li class="card-text fw-light" id="expert_card_2">Waterproofing</li>
+                        </ul>
+                    </div>
+                   
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card h-100" id="card_style">
+                <img src="..\Images\tomato.png" class="card-img-top" alt="Tamarino Tomarano">
+                <div class="card-body">
+                    <!--card title-->
+                    <h3 class="card-title text-center" id="expert_card_1">Tamarino Tomarano</h3>
+                     <!--horizontal bar-->
+                    <div class="d-flex justify-content-center">
+                        <hr class="section-title-hr_2">
+                    </div>
+                    <!--card body-->
+                    <div class="container">
+                        <ul>
+                            <li class="card-text fw-light" id="expert_card_2">Internal Repair</li>
+                            <li class="card-text fw-light" id="expert_card_2">Glass Repair / Replacement</li>
+                            <li class="card-text fw-light" id="expert_card_2">Polishing</li>
+                        </ul>
+                    </div>
+                   
+                </div>
+            </div>
+            </div>
             </div>
         </div>
     </div>
 
+    
 
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-body-tertiary text-muted">  
