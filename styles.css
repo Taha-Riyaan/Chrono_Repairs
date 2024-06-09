@@ -25,6 +25,7 @@
     font-size: 65;
 }
 
+/*horizontal name under title*/
 .section-title-hr {
     width: 50em;
     height: 1px;
@@ -33,3 +34,58 @@
     display: block;
     opacity: .60;
   }
+
+/*slogan*/
+#slogan {
+    font-family: 'Inter';
+    color: #828282;
+    text-shadow: 0px 7px 30px #828282;
+
+}
+
+/*new rounded corner to replace bootstrap roun*/
+.round_corner {
+    border-radius: 10px;
+}
+
+/*Reviews box*/
+.reviews_box {
+    background-color: 4378AA;
+}
+
+/*Reviews title*/
+.reviews_title {
+    font-family: 'Quattrocento';
+    color: white;
+}
+
+/*Reviews cards*/
+.card {
+    border-radius: 10px;
+
+}
+
+/*Reviews id*/
+.review_id {
+    display: inline-block;
+}
+
+/*reviews image*/
+.reviews_image {
+    width: 4em;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+/*main text of review*/
+.review_review {
+    font-family: 'Inter'; 
+    margin-bottom: 1em;
+}
+
+/*footer apart*/
+#apart {
+    display: flex;
+    justify-content: space-between;
+}
